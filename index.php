@@ -1,5 +1,4 @@
 <?php
-// Simple PHP Calculator
 
 $result = '';
 $error = '';
