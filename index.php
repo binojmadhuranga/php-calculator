@@ -2,7 +2,6 @@
 
 $result = '';
 $error = '';
-
 if (isset($_POST['calculate'])) {
     $num1 = isset($_POST['num1']) ? floatval($_POST['num1']) : 0;
     $num2 = isset($_POST['num2']) ? floatval($_POST['num2']) : 0;
