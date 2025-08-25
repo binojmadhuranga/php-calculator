@@ -199,7 +199,7 @@ if (isset($_POST['calculate'])) {
             document.getElementById('num2').value = '';
             document.getElementById('operation').value = '';
             
-            // Remove result and error displays
+           
             const result = document.querySelector('.result');
             const error = document.querySelector('.error');
             if (result) result.remove();
