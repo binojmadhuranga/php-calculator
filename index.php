@@ -6,7 +6,6 @@ if (isset($_POST['calculate'])) {
     $num1 = isset($_POST['num1']) ? floatval($_POST['num1']) : 0;
     $num2 = isset($_POST['num2']) ? floatval($_POST['num2']) : 0;
     $operation = isset($_POST['operation']) ? $_POST['operation'] : '';
-    
     switch ($operation) {
         case '+':
             $result = $num1 + $num2;
